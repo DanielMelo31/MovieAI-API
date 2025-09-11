@@ -1,10 +1,10 @@
-package com.springMovie;
+package com.springMovie.model.service;
 
 import dev.langchain4j.service.UserMessage;
 import dev.langchain4j.service.spring.AiService;
 
 @AiService
-public interface SpringMovieService {
+public interface SpringMovieAIService {
 
     @UserMessage("""
             Generate a welcome message for a movie platform SpringMovie.
